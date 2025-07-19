@@ -16,8 +16,6 @@ This project is ideal for learning or showcasing front-end development skills us
 
 - **HTML5** – Markup for page structure  
 - **CSS3** – Styling and layout  
-- **JavaScript** – Core interactivity  
-- **jQuery** – DOM manipulation and AJAX handling  
 - **Bootstrap 5** – Responsive design and UI components
 
 ---
