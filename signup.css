@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    overflow-y:hidden;
+    background-color: aqua;
+  }
+  .login-container {
+    display: flex;
+    justify-content: center;
+    height: 82vh;
+  }
+  .signup {
+    width: 350px; /* Adjust the width as needed */
+    margin-top: 100px;
+  }
+  .form-group
+  {
+     margin-bottom: 15px;
+  }
+  p
+  {
+     font-weight: bolder;
+  }
+  footer {
+    background-color: rgb(23, 23, 23);
+    color: white;
+    padding: 20px; /* Add padding for better spacing */
+  }
+  footer a{
+    color:white;
+  }

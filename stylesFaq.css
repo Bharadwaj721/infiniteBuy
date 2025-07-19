@@ -1,0 +1,81 @@
+html,body{
+    overflow-x:hidden;
+}
+body{
+    height:100%;
+    margin : 0px;    
+}
+.header_code{
+    display: flex;
+    height:300px;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+    background-color: #78c6e0;
+    margin-bottom:15px; 
+    
+    /* height: 100vh; */
+    margin: 15px;
+}
+footer {
+    background-color: rgb(23, 23, 23);
+    color: white;
+    padding: 20px; /* Add padding for better spacing */
+  }
+footer a{
+    color:white;
+}
+
+faq_first_part{
+    display:flex;
+    flex-basis:50%;
+    justify-content:center;
+    align-items:center;
+    gap:5px;
+    /* border:2px solid black; */
+}
+.item{
+    text-align:center;
+    font-weight: bolder;
+    flex:1;
+    font-family: 'Protest Riot', sans-serif;
+}
+/* .questions{     */
+    /* display:flex; */
+    /* gap:2px; */
+    /* background-color:black; */
+/* } */
+.ques_ans{
+    padding-bottom:10px;
+    /* border-bottom:1px solid black; */
+    display:block;
+    cursor: pointer;
+}
+
+.ques{
+    /* creating a box for the question*/
+    background-color:rgb(237, 232, 232);
+    padding:3px;
+    margin:5px;
+}
+
+.move_right{
+    padding-left:27px;
+}
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  } */
+
+  .custom-search-bar {
+    width: 400px; /* Adjust the width as needed */
+  }
+
+  /* Customize the link color in the footer */
+  body > div.header_code > h2{
+    position:absolute;
+    top:130px;
+  }

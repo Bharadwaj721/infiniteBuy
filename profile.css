@@ -1,0 +1,41 @@
+footer {
+    background-color: rgb(23, 23, 23);
+    color: white;
+    padding: 20px; /* Add padding for better spacing */
+  }
+  footer a{
+    color:white;
+  }
+  body{
+    margin:0
+  }
+
+  .editable {
+    display: none; /* Initially hide editable fields */
+  }
+  .field-container {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  label {
+    width: 120px; /* Adjust as needed */
+    margin-right: 10px;
+  }
+  input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }

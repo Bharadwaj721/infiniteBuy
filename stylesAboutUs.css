@@ -1,0 +1,27 @@
+html,body{
+    overflow-x:hidden;
+}
+body{
+    height:100%;
+    margin : 0px;    
+}
+.hero-section {
+    display: flex;
+    background-image: url('https://mobirise.com/extensions/cyberm5/digital-downloads/assets/images/pexels-hasan-albari-1229861.jpg');
+    background-size: cover;
+    height : 600px;
+    width : 100%;
+    align-items:center;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;   
+    text-align: center;
+}
+footer {
+    background-color: rgb(23, 23, 23);
+    color: white;
+    padding: 20px; /* Add padding for better spacing */
+  }
+footer a{
+    color:white;
+}
